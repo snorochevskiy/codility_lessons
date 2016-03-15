@@ -1,4 +1,4 @@
-package snorochevskiy.codility.lessons;
+package snorochevskiy.codility.lessons.lesson1;
 
 
 // binary gap within a positive integer N is any maximal sequence of consecutive zeros that is surrounded by ones at both ends in the binary representation of N.
@@ -22,7 +22,7 @@ package snorochevskiy.codility.lessons;
 // expected worst-case time complexity is O(log(N));
 // expected worst-case space complexity is O(1).
 
-public class Lesson1 {
+public class BinaryGap {
 
     public int solution(int N) {
 

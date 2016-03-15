@@ -1,11 +1,11 @@
-package snorochevskiy.codility.lessons;
+package snorochevskiy.codility.lessons.lesson1;
 
 import org.junit.Assert;
 import org.junit.Test;
 
-public class Lesson1Test {
+public class BinaryGapTest {
 
-    Lesson1 sut = new Lesson1();
+    BinaryGap sut = new BinaryGap();
 
     @Test
     public void simpleTest() {
