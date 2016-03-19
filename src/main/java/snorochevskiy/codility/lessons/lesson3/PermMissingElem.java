@@ -5,15 +5,12 @@ public class PermMissingElem {
     public int solution(int[] A) {
 
         // sort
-        int lInd;
         for (int i = 0; i < A.length; i++) {
-            lInd = i;
-            // repositioning
-            while (A[lInd] - 1 != lInd && A[lInd] - 1 != A.length) {
-                int rInd = A[lInd] - 1;
-                int tmp = A[rInd];
-                A[rInd] = A[lInd];
-                A[lInd] = tmp;
+            // repositioning, until A[i] contains i+1 value
+            while (A[i] - 1 != i && A[i] - 1 != A.length) {
+                int tmp = A[A[i] - 1];
+                A[A[i] - 1] = A[i];
+                A[i] = tmp;
             }
         }
 
