@@ -1,5 +1,7 @@
 package snorochevskiy.codility.lessons.lesson5;
 
+// Solution with Segment Tree
+// Time - O(N + M*LogN)
 public class GenomicRangeQuery {
 
     public int[] solution(String S, int[] P, int[] Q) {
